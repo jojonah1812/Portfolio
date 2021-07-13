@@ -15,62 +15,96 @@
         <nav>
             <ul>
                 <li><a href="#aboutMe">About Me</a></li>
-                <li><a href="#work">Work</a></li>
+                <li><a href="#Work">Work</a></li>
                 <li><a href="#contactMe">Contact Me</a></li>
             </ul>
         </nav>
     </header>
     
-   
-    
-    
-    <main class="content">
+   <!--section along right side of webpage-->   
+    <aside class="benefits">
+        <section class="benefit-lead">
+            <h3>LinkedIn</h3>
+            <a href="https://www.linkedin.com/in/jonah-haase-7577a38/" target="_blank"><img src="./assets/images/LinkedIn.png" alt="LinkedIn profile"></a>
+            <!-- <p> text here  </p> -->
+        </section>
+        <section class="benefit-brand">
+            <h3>Resume</h3>
+           <a href="https://drive.google.com/file/d/1n1_6X6Hnk8IRZD-SQcwIeZxOPi55sjnh/view?usp=sharing
+" target="_blank"><img src="./assets/images/resumeicon.png" alt="Resume"></a>
+             <!-- <p> text here  </p> -->
+        </section>
+        <section class="benefit-cost">
+            <h3>GitHub</h3>
+            <a href='https://github.com/jojonah1812' img src="./assets/images/cost-management.png" alt="A cog and three coins"></a>
+            <p><!-- <p> text here  </p> --></p>
+        </section>
+    </aside>
+
+
+<!-- ------------------------- MAIN ----------------------- -->
+    <main class="content" id="Work">
         <section id="project1" class="project1">
-            <a href="https://out-of-office-app.herokuapp.com/" target="_blank"><img src="./assets/images/pattern1.jpg" alt="Out-of-Office project image."  class="float-left"></a>
+            <a href="https://out-of-office-app.herokuapp.com/" target="_blank"><img src="./assets/images/project-images/ooo-screenshot-small.png" alt="Out-of-Office project image."  class="float-left"></a>
             <h2>Out-of-Office</h2>
+            <p>"Out of Office" is a full-stack application designed for users to read about and share travel experiences.The goal of this project was to develop a full-stack application that showcases the skills we've developed over the course of this Coding Bootcamp. </p>
             <p>
-                Out-of-Office: ex. The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home.
+<br>
+            </p>It uses Node.js and Express.js to create a RESTful API, Handlebars.js as the template engine, MySQL and the Sequelize ORM for the database, and GET and POST routes for retrieving and adding new data. The folder structure follows the MVC paradigm and the appplication protects sensitive information with environment variables. The application also uses express-sessions and cookies for user authentication.</p>
+            <br>
+            <p>This site was (proudly!) built completely from scratch, then deployed to Heroku. It was carefully crafted to create a pleasant user experience and is both desktop and mobile friendly. A link to the deployed application can be found below.
             </p> 
             <br>
-            <p>
-                GitHub: https://github.com/jojonah1812/out-of-office
-            </p>
+            <ul>
+                <li><a href="https://out-of-office-app.herokuapp.com/" target="_blank">Deployed Version</a>
+                <li><a href="https://github.com/jojonah1812/out-of-office" target="_blank">GitHub</a>
+                <li><a href="https://github.com/jojonah1812/out-of-office/blob/main/README.md" target="_blank">README</a>
+            </ul>
         </section>
        
        
        
         <section id="project2" class="project2">
-            <a href="https://chrischo94.github.io/TinderForFood/" target="_blank"><img src="./assets/images/pattern2.jpg" alt="Out-of-Office project image." class="float-right"></a>  
+            <a href="https://chrischo94.github.io/TinderForFood/" target="_blank"><img src="./assets/images/project-images/foodster.png" alt="Out-of-Office project image." class="float-right"></a>  
             <h2>Foodster</h2>
-            <p>
-                Foodster SUMMARY: ex. The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. 
-            </p>
-            <br>
-            <p>
-                GitHub: https://github.com/chrischo94/TinderForFood
-            </p>
+            <p>There are days when we have limited time and even less patience, and the last decision you want to make is the dreaded, "What should we have for dinner?"  This application helps resolve this issue by simplifying the process and the final decision making.  With just a few swipes left or right, we can narrow down our choices that fit our tastes in that very moment.</p>
+                <br>
+            <p>Process of Development</p>
+                <ol>
+                    <li>Created HTML, CSS, JS files, and linked them to out index file.</li>
+                    <li>Researched and linked various API's: Bootstrap, jQuery, Google Fonts.</li>
+                    <li>Researched API's to obtain information on local restaurants through the Yelp API.</li>
+                    <li>Added functions to get the location of the user's browser.</li>
+                    <li>Created available tags to search bar for auto-fill and streamline functionality.</li>
+                    <li>Added profile button and created a modal for out input.</li>
+                    <li>Added local storage for user profile.</li>
+                    <li>Inserted addEventListeners to all buttons, and linked our git fetch functions.</li>
+                    <li>CSS styling issues - visual, functional. </li>
+           </ol>
+                <br>
+            <ul>
+                <li><a href="https://chrischo94.github.io/TinderForFood/" target="_blank">Deployed Version</a>
+                <li><a href="https://github.com/chrischo94/TinderForFood" target="_blank">GitHub</a>
+            </ul>
         </section>
-       
-       
        
         <section id="project3"  class="project3">
-            <a href="https://jojonah1812.github.io/E-Commerce-Back-End-ORM/" target="_blank"><img src="./assets/images/pattern3.jpg" alt="Out-of-Office project image." class="float-left"></a> 
+            <a href="https://jojonah1812.github.io/E-Commerce-Back-End-ORM/" target="_blank"><img src="./assets/images/project-images/ecommerce.jpg" alt="Out-of-Office project image." class="float-left"></a> 
             <h2>eCommerce</h2>
             <p>
-                eCommerce SUMMARY: ex. Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand.
+                Internet retail, also known as e-commerce, is the largest sector of the electronics industry, generating an estimated $29 trillion in 2019. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to their prevalence, understanding the fundamental architecture of these platforms will benefit you as a full-stack web developer.
             </p>
-            <br>
-            <p>
-                GitHub: https://github.com/jojonah1812/E-Commerce-Back-End-ORM
                 <br>
-                <br>
-                Video: https://drive.google.com/file/d/1L-9Su_MJBp1Rv4-mlnYhvqZzr6uS1RyR/view
-            </p>
+            <ul>
+                <li><a href="https://jojonah1812.github.io/E-Commerce-Back-End-ORM/" target="_blank">Deployed Version</a>
+                <li><a href="https://github.com/jojonah1812/E-Commerce-Back-End-ORM" target="_blank">GitHub</a>
+                <li><a href="https://drive.google.com/file/d/1L-9Su_MJBp1Rv4-mlnYhvqZzr6uS1RyR/view" target="_blank">Video</a>
+            </ul>
         </section>
     </main>
- 
-    <footer class="footer">
-      <h2>Contact Me</h2>
+
+    <footer class="footer" id="contactMe">
+      <h1>Contact Me</h1>
         <nav>
             <ul class="needToAdd li a">
                 <li>
@@ -79,63 +113,13 @@
                 <li>
                     <a href='mailto:jojonah@gmail.com'>jojonah@gmail.com</a>
                 </li>
-                <li>
-                    <a href='https://github.com/jojonah1812'>GitHub</a>
-                </li>
+                
             </ul>
         </nav>
     </footer>
-    <section class="needToAdd">
-        <h2>INFO NEEDED TO BE ADDED TO PORTFOLIO</h2>
-        <ul>
-           <li><a href='https://drive.google.com/file/d/1n1_6X6Hnk8IRZD-SQcwIeZxOPi55sjnh/view?usp=sharing'>Resume link-PDF downloadable-GDrive </a></li>
-           <li><a href='mailto:jojonah@gmail.com'>jojonah@gmail.com</a></li>
-           <li><a href='https://www.linkedin.com/in/jonah-haase-7577a38/'>LinkedIn</a></li>
-        
-        
 
-
-Profile pic
-Biography
-Follow classmates
-
-      
-        
-        
-        
-        
-        
-        
-        </ul> 
-    </section>
 </body>
 
 </html>
 
 
-
-
-<!--section along left side of webpage-->   
-    <!-- <aside class="benefits">
-        <section class="benefit-lead">
-            <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" alt="A cog generates revenue" />
-            <p>
-                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
-            </p>
-        </section>
-        <section class="benefit-brand">
-            <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" alt="Person with a lightbulb instead of a head" />
-            <p>
-                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
-            </p>
-        </section>
-        <section class="benefit-cost">
-            <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png" alt="A cog and three coins"/>
-            <p>
-                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
-            </p>
-        </section>
-    </aside> -->
