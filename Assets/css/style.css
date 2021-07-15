@@ -6,145 +6,93 @@
 
 #inlineNav {
     display:inline;
+    margin: 5px;
+    /* max-height: 400px; */
 }
 
-body {
+#aboutMeAside {
+   display: flex;
    
-    }
-
-
-/* ------------------ HEADER -------------------- */
-/* .header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #c0a792;
-    color: #ffffff;
-    }   
-
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-    }
-
-.header h1 .project1 {
-    color: #d9dcd6;
-    }
-
-.header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px; 
-    }
-
-.header nav ul {
-    list-style-type: none;
-    }
-
-.header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-    } */
-/* ------------------ END HEADER -------------------- */
-
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-    }
-
-p {
-    font-size: 16px;
-    }
-
-.hero {
-    height: 200px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-    }
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-    }
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-    }
-
-.content {
-    width: 100%;
-    display: inline-block;
-    margin-left: 20px;
-}   
+   margin: 2%;
+/* padding:10px; */
+   border: 1px solid black;
+    
+}
 
 #aboutMe {
-   background-color: #e013ad; 
+   
+   margin: 2%;
+   padding:3%;
+   max-width: 80%;
+   background-color: hsl(0, 15%, 58%); 
+   border: 1px solid black;
 }
 
-.project1 {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #04523e;
-    color: #ffffff;
-    }
+#headshot {
+    max-width:200px;
+    max-height:200px;
+}
 
-.project2 {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #04523e;
-    color: #ffffff;
-    }
+/*------------ CONTENT MAIN ------------*/
+.contentMain {
+    width: 100%;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 2%;
+    padding:2%;
+    max-width: 100%;
+}  
 
-.project3 {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #04523e;
-    color: #ffffff;
-    }
+.contentMain img {
+    display: inline-block;
+    border: 1px solid black;
+    margin: 2%;
+    max-width: 100%;
+}  
 
-.project1 img {
-    max-height: 200px;
-    }
 
-.project2 img {
-    max-height: 200px;
-    }
 
-.project3 img {
-    max-height: 200px;
-    }
 
-.project1 h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-    }
 
-.project2 h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-    }
-
-.project3 h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-    }   
-
+/* /////////// ASIDE ///////////////// */
+.asideInfo {
     
+   margin: 2%;
+    /* padding:10px; */
+    clear: both;
+    width: 20%;
+    max-width: 150px;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #1d6d3e;
+    border: 1px solid black;
+    }
+
+.asideInfo-linkedIn img {
+    display: block;
+    margin: 5px auto;
+    
+    max-width: 90%;
+    max-width: 60px;
+}
+
+.asideInfo-resume img {
+    display: block;
+    margin: 10px auto;
+    max-width: 90%;
+    /* max-height: 10; */
+    }       
+
+.asideInfo-gitHub img {
+    display: block;
+    margin: 10px auto;
+    max-width: 90%;
+    }
+
+
 /* ------------------ FOOTER -------------------- */
 .footer {
-    padding: 30px;
+   
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
@@ -158,6 +106,7 @@ p {
 
 
 footer {
+    max-height: 100%;
     border-style: solid;
     border-width: 1px;
     display: flex;
@@ -169,103 +118,27 @@ footer {
     background-color: #c0a792;
 }
 
-footer h2 {
-    
-    padding: 0 2em;
-    display: inline-block;
+footer h1 {
+    /* font-size: 60px; */
 }
 
 footer ul {
     list-style-type: none;
-    /* float: right; */
+    float: right;
    }
 footer ul li {
     display:inline;
     padding:5px;
     margin: 0 0 0 12px;
-    font-size: 20;
+    font-size: 20px;
+    
 }
 
 footer ul li a:hover{
     color:rgb(91, 95, 235);
 }
 
-
-
-.needToAdd {
-    display: inline-block;
-    margin-left: 100px;
-    padding: 40px ;
-    color:black
-}
-.needToAdd li a {
+/* // link to send email // */
+.footer li a {
     color:black;
-    font-size: 30px;
-}
-
-
-
-
-
-
-
-/* /////////// ASIDE BENEFIT ///////////////// */
-.asideInfo {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #1d6d3e;
-    }
-
-.asideInfo {
-    margin-bottom: 32px;
-    color: #ffffff;
-    }
-
-.asideInfo-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-    }
-
-.asideInfo-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-    }
-
-.asideInfo-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-    }
-
-.asideInfo-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-    }
-
-.asideInfo-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-    }
-
-.asideInfo-linkedIn img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-    }
-
-.asideInfo-resume img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-    max-height: 10;
-    }       
-
-.asideInfo-gitHub img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-    }
+ }
