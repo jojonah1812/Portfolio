@@ -21,11 +21,12 @@
 
 #aboutMe {
    
-   margin: 2%;
+   margin: 2% 1% 2% 2%;
    padding:3%;
    max-width: 80%;
    background-color: hsl(0, 15%, 58%); 
    border: 1px solid black;
+   border-radius: 10px;
 }
 
 #headshot {
@@ -55,40 +56,50 @@
 
 
 /* /////////// ASIDE ///////////////// */
-.asideInfo {
+.aside {
     
-   margin: 2%;
-    /* padding:10px; */
+    margin: 2% 2% 2% 1%;
+    padding:2%;
+    border-radius: 10px;
     clear: both;
-    width: 20%;
-    max-width: 150px;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #1d6d3e;
     border: 1px solid black;
+    max-width: 20%;
+    height: 100%;
+    background-color: #1d6d3e;
+    
+}
+
+
+
+.asideCard {
+   
+    margin: 2%;
+    padding:2%;
+    border-radius: 10px;
+    clear: both;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:hsl(45, 12%, 94%);
+    /* border: 1px solid black; */
     }
 
-.asideInfo-linkedIn img {
+.asideCard h3 {
+    text-align: center;
+    color: white;
+}
+
+
+.asideCard img {
     display: block;
     margin: 5px auto;
     
-    max-width: 90%;
-    max-width: 60px;
+    border-radius: 5px;
+    max-width:80%;
+    max-height: 80%;
 }
-
-.asideInfo-resume img {
-    display: block;
-    margin: 10px auto;
-    max-width: 90%;
-    /* max-height: 10; */
-    }       
-
-.asideInfo-gitHub img {
-    display: block;
-    margin: 10px auto;
-    max-width: 90%;
-    }
-
 
 /* ------------------ FOOTER -------------------- */
 .footer {
@@ -118,9 +129,9 @@ footer {
     background-color: #c0a792;
 }
 
-footer h1 {
-    /* font-size: 60px; */
-}
+/* footer h1 {
+    font-size: 60px;
+} */
 
 footer ul {
     list-style-type: none;
