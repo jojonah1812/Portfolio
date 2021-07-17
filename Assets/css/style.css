@@ -35,7 +35,7 @@
 }
 
 /*------------ CONTENT MAIN ------------*/
-.contentMain {
+.contentWork {
     width: 100%;
     display: inline-block;
     border: 1px solid black;
@@ -44,7 +44,7 @@
     max-width: 100%;
 }  
 
-.contentMain img {
+.contentWork img {
     display: inline-block;
     border: 1px solid black;
     margin: 2%;
