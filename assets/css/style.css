@@ -7,16 +7,19 @@
 #inlineNav {
   display: inline;
   margin: 1px;
-  color:white;
+  color: white;
   /* max-height: 400px; */
   background-color: #1d6d3e;
-  
+}
+
+.nav-item {
+  text-align: right;
 }
 
 header {
   background-color: #1d6d3e;
   margin: 15px;
-  color:white;
+  color: white;
 }
 
 main {
@@ -40,22 +43,19 @@ main {
   background-color: rgb(197, 163, 117);
   border: 1px solid black;
   border-radius: 10px;
-  
 }
 
 #aboutMeImg {
   max-width: 200px;
   max-height: 200px;
   float: left;
-  margin:2%;
+  margin: 2%;
 }
 
 /* #aboutMe p h2 {
   float: right;
   
 } */
-
-
 
 /*------------ CONTENT MAIN ------------*/
 .contentWork {
@@ -74,6 +74,13 @@ main {
   max-width: 100%;
 }
 
+.btn-primary {
+  margin: auto 15px;
+  max-width: 100px;
+}
+
+
+
 /* /////////// ASIDE ///////////////// */
 .aside {
   margin: 2% 2% 2% 1%;
@@ -84,7 +91,7 @@ main {
   max-width: 17%;
   height: 100%;
   background-color: #1d6d3e;
-  display:block;
+  display: block;
 }
 
 .asideCard {
@@ -98,7 +105,7 @@ main {
   justify-content: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: hsl(45, 12%, 94%);
-  display:block;
+  display: block;
   font-size: 120%;
 }
 
