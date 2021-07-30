@@ -74,6 +74,11 @@ main {
   max-width: 100%;
 }
 
+.btn {
+  margin: auto 15px;
+  max-width: 100px;
+}
+
 .btn-primary {
   margin: auto 15px;
   max-width: 100px;
