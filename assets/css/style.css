@@ -84,14 +84,14 @@ main {
 }
 
 .btn {
-  margin: auto 15px;
+  margin: 15px;
   max-width: 100px;
 }
 
-.btn-primary {
+/* .btn-primary {
   margin: auto 15px;
   max-width: 100px;
-}
+} */
 
 
 
